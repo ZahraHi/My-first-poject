@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My first HTML/CSS project</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            margin: 0;
+            }
+
+        .header {
+            background-color: #c4fbf6;
+            padding: 20px;
+            text-align: center;
+            }
+
+        .topnav {
+            overflow: hidden;
+            background-color: #ecb055;
+            }
+
+        .topnav a {
+            float: left;
+            display: block;
+            color: #2b2d73;
+            font-weight: bold;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            }
+
+        .topnav a:hover {
+            background-color: #75644a;
+            color: white;
+            }
+
+        div.gallery {
+            border: 3px solid #313851;
+            /* height: 1000px; */
+            }
+
+        div.gallery:hover {
+            border: 3px solid #000000;
+            display: block;
+            }
+
+        div.gallery img {
+            width: 100%;
+            height: 500px;
+            }
+
+        .dropup-content {
+            display: none;
+            position: absolute;
+            background-color: #ffffff;
+            min-width: 160px;
+            max-width: 380px;
+            color: #2b2d73;
+            bottom: 100px;
+            padding: 0 15px;
+            z-index: 1;
+            }
+
+        div.desc {
+            padding: 15px;
+            text-align: center;
+            }
+
+        div.desc:hover .dropup-content {
+            display: block;
+            }
+
+        * {
+            box-sizing: border-box;
+            }
+
+        .responsive {
+            padding: 6px 6px;
+            float: left;
+            width: 25%;
+            }
+
+        h1 {
+            color: #75644a;
+        }
+        h2 {
+            color: #e7a137;
+        }
+        h3 {
+            color: #2b2d73;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>My first HTML/CSS project</h1>
+        <h2>About some of Vincent van Gogh's paintings</h2>
+        <h3>Zahra Heydari (Sahra)</h3>
+    </div>
+    <div class="topnav">
+        <a href="https://www.linkedin.com/in/zahra-heydari-s2904/">My Linkeedin</a>
+        <a href="https://www.instagram.com/sahra_hi/">My Instagram</a>
+        <a href="https://twitter.com/zahraHI80">My Twitter</a>
+    </div>
+
+    <div class="responsive">
+        <div class="gallery">
+          <a href="img_1.jpg">
+            <img src="img_1.jpg" alt="SUNFLOWERS">
+          </a>
+          <div class="desc">SUNFLOWERS
+            <div class="dropup-content">
+            <p>
+                Van Gogh’s paintings of Sunflowers are among his most famous. He did them in Arles, in the south of France, in 1888 and 1889. 
+                Vincent painted a total of five large canvases with sunflowers in a vase, with three shades of yellow ‘and nothing else’. 
+                In this way, he demonstrated that it was possible to create an image with numerous variations of a single colour, without any loss of eloquence.
+                The sunflower paintings had a special significance for Van Gogh: they communicated ‘gratitude’, he wrote. He hung the first two in the room of his friend, 
+                the painter Paul Gauguin, who came to live with him for a while in the Yellow House. Gauguin was impressed by the sunflowers, 
+                which he thought were ‘completely Vincent’. Van Gogh had already painted a new version during his friend’s stay and Gauguin later asked for one as a gift, 
+                which Vincent was reluctant to give him. He later produced two loose copies, however, one of which is now in the Van Gogh Museum.
+            </p>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <div class="responsive">
+        <div class="gallery">
+          <a href="img_2.jpg">
+            <img src="img_2.jpg" alt="ALMOND BLOSSOM">
+          </a>
+          <div class="desc">ALMOND BLOSSOM
+            <div class="dropup-content">
+            <p>
+                Large blossom branches like this against a blue sky were one of Van Gogh’s favourite subjects. 
+                Almond trees flower early in the spring making them a symbol of new life. Van Gogh borrowed the subject, 
+                the bold outlines and the positioning of the tree in the picture plane from Japanese printmaking.
+                The painting was a gift for his brother Theo and sister-in-law Jo, who had just had a baby son, Vincent Willem. 
+                In the letter announcing the new arrival, Theo wrote: ‘As we told you, we’ll name him after you, and I’m making the wish that he may be as determined and as courageous as you.’ 
+                Unsurprisingly, it was this work that remained closest to the hearts of the Van Gogh family. Vincent Willem went on to found the Van Gogh Museum.
+            </p>
+            </div>
+          </div>
+        </div>
+    </div>
+      
+    <div class="responsive">
+        <div class="gallery">
+          <a href="img_3.jpg">
+            <img src="img_3.jpg" alt="CAFE TERRACE AT NIGHT">
+          </a>
+          <div class="desc">CAFE TERRACE AT NIGHT
+            <div class="dropup-content">
+            <p>
+                This painting of a colorful outdoor view is a picturesque work, the vision of a relaxed spectator who enjoys the charm of his surrounding without any moral concern. 
+                It recalls Van Gogh's mood when he wrote that "the night is more alive and more richly colored than the day." 
+                The color is more profuse and the eye wanders along the steeped or dove-tailed edges of neighboring areas - irregular shapes fitted to each other like a jigsaw puzzle design. 
+                To divide this space for long into a large object and background themes is difficult for the eyes; the distant and nearer parts are alike distinct. 
+                The yellow of the cafe plays against the blue-black of the remote street and the violet-blue of the foreground door, and, by a paradox of composition that helps to unify the work, 
+                at the strongest point of contrast the awning's blunt corner nearest to us touches the remote blue sky. Foreshortened lines that thrust into depth, like the lintel of the door, 
+                are strictly parallel to lines like the slope of the yellow awning and the roof of the house above, which lie in planes perpendicular to the first. For this roving, 
+                unengaged vision the upward dimension is no less important and expressive than the depth.
+            </p>
+            </div>
+          </div>
+        </div>
+    </div>
+      
+    <div class="responsive">
+        <div class="gallery">
+          <a href="img_4.jpg">
+            <img src="img_4.jpg" alt="SELF-PORTRAIT">
+          </a>
+          <div class="desc">SELF-PORTRAIT
+            <div class="dropup-content">
+            <p>
+                Vincent produced his self-portraits because he wanted to practise painting people.The majority of them – over 25 – were done while he was in Paris 
+                (1886–88). He was short of money in that period and struggled to find models. So the artist chose the simplest solution and painted himself.
+                To save money, he sometimes painted self-portraits on the back of other paintings. By doing that, he avoided the costs not only of a model but also of expensive canvas. 
+                You can see five such self-portraits in the Van Gogh Museum's online collection.In July 2022 a hidden self-portrait was discovered in the collection of The National Galleries of Scotland in Edinburgh.
+            </p>
+            </div>
+          </div>
+        </div>
+    </div>
+      
+</body>
+</html>
